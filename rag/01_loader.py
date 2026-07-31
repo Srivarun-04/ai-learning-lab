@@ -1,13 +1,13 @@
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.document_loaders import TextLoader
 
-embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
-)
+loader = TextLoader("data/notes.txt")
 
-vector = embeddings.embed_query(
-    "What is Binary Search?"
-)
+documents = loader.load()
 
-print(type(vector))
-print(len(vector))
-print(vector[:10])
+print(documents)
+
+print("\nPage Content:\n")
+print(documents[0].page_content)
+
+print("\nMetadata:\n")
+print(documents[0].metadata)
