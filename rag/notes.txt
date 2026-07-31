@@ -1,56 +1,148 @@
-Retrieval augmented generation, or RAG, is an architecture for optimizing the performance of an artificial intelligence (AI) model by connecting it with external knowledge bases. RAG helps large language models (LLMs) deliver more relevant responses at a higher quality.
+Academic Honesty Policy
+Academic Affairs Policies
 
-Generative AI (gen AI) models are trained on large datasets and refer to this information to generate outputs. However, training datasets are finite and limited to the information the AI developer can access—public domain works, internet articles, social media content and other publicly accessible data.
+Membership in the Franklin & Marshall community involves obligations of personal and academic integrity, and members of our community are bound by ideals of scholarly conduct and intellectual honesty. We expect our students to be honest and forthright in representing their work and its origins. Adherence to these norms is at the core of our academic mission and is necessary for the educational benefits we seek to convey. Conversely, violations undermine our shared purpose.
 
-RAG allows generative AI models to access additional external knowledge bases, such as internal organizational data, scholarly journals and specialized datasets. By integrating relevant information into the generation process, chatbots and other natural language processing (NLP) tools can create more accurate domain-specific content without needing further training.
+It is the responsibility of faculty members to explain the importance of academic integrity in their courses. This can include, but is not limited to, providing written expectations of these guidelines in the syllabus and explicit instructions for assignments, e.g., what level of collaboration is acceptable. It is the responsibility of the student to be aware of and abide by the standards set by the faculty member in each course. Ignorance of the standards is not an excuse and intent is not a factor in determining responsibility for misconduct.
 
-What are the benefits of RAG?
-RAG empowers organizations to avoid high retraining costs when adapting generative AI models to domain-specific use cases. Enterprises can use RAG to complete gaps in a machine learning model’s knowledge base so it can provide better answers.
+The failure to meet these obligations of personal and academic integrity results in academic misconduct, which includes, but is not limited to, the following.
 
-The primary benefits of RAG include:
+Unauthorized aid—making use of prohibited materials, study guides, or other assistance in an academic exercise, for example:
 
-Cost-efficient AI implementation and AI scaling
-Access to current domain-specific data
-Lower risk of AI hallucinations
-Increased user trust
-Expanded use cases
-Enhanced developer control and model maintenance
-Greater data security
-Cost-efficient AI implementation and AI scaling
-When implementing AI, most organizations first select a foundation model: the deep-learning models that serve as the basis for the development of more advanced versions. Foundation models typically have generalized knowledge bases populated with publicly available training data, such as internet content available at the time of training.
+accessing prohibited material during an examination,
 
-Retraining a foundation model or fine-tuning it—where a foundation model is further trained on new data in a smaller, domain-specific dataset—is computationally expensive and resource-intensive. The model adjusts some or all of its parameters to adjust its performance to the new specialized data.
+obtaining test questions before an exam is given,
 
-With RAG, enterprises can use internal, authoritative data sources and gain similar model performance increases without retraining. Enterprises can scale their implementation of AI applications as needed while mitigating cost and resource requirement increases.
+looking up solutions to homework problems online,
 
-Access to current and domain-specific data
-Generative AI models have a knowledge cutoff, the point at which their training data was last updated. As a model ages further past its knowledge cutoff, it loses relevance over time. RAG systems connect models with supplemental external data in real-time and incorporate up-to-date information into generated responses.
+obtaining the solution to a problem from a classmate, or
 
-Enterprises use RAG to equip models with specific information such as proprietary customer data, authoritative research and other relevant documents.
+collaborating on work that is assigned individually.
 
-RAG models can also connect to the internet with application programming interfaces (APIs) and gain access to real-time social media feeds and consumer reviews for a better understanding of market sentiment. Meanwhile, access to breaking news and search engines can lead to more accurate responses as models incorporate the retrieved information into the text-generation process.
+Plagiarism—reproducing the work or ideas of others and claiming them as your own, for example:
 
-Lower risk of AI hallucinations
-Generative AI models such as OpenAI’s GPT work by detecting patterns in their data, then using those patterns to predict the most likely outcomes to user inputs. Sometimes models detect patterns that don’t exist. A hallucination or confabulation happens when models present incorrect or made-up information as though it is factual.
+claiming authorship of a piece of writing or artwork created by someone else,
 
-RAG anchors LLMs in specific knowledge backed by factual, authoritative and current data. Compared to a generative model operating only on its training data, RAG models tend to provide more accurate answers within the contexts of their external data. While RAG can reduce the risk of hallucinations, it cannot make a model error-proof.
+making use of ideas obtained from other sources (including classmates) without clearly acknowledging the source, or
 
-Increased user trust
-Chatbots, a common generative AI implementation, answer questions posed by human users. For a chatbot such as ChatGPT to be successful, users need to view its output as trustworthy. RAG models can include citations to the knowledge sources in their external data as part of their responses.
+incorporating verbatim passages or elements from an existing work into one’s own work without quotation marks or otherwise clear indication of authorship.
 
-When RAG models cite their sources, human users can verify those outputs to confirm accuracy while consulting the cited works for follow-up clarification and additional information. Corporate data storage is often a complex and siloed maze. RAG responses with citations point users directly toward the materials they need.
+Falsifying information—making false statements or fabricating information in an academic exercise, for example:
 
-Expanded use cases
-Access to more data means that one model can handle a wider range of prompts. Enterprises can optimize models and gain more value from them by broadening their knowledge bases, in turn expanding the contexts in which those models generate reliable results.
+inventing data or sources for an assignment,
 
-By combining generative AI with retrieval systems, RAG models can retrieve and integrate information from multiple data sources in response to complex queries.
+lying to obtain an extension or other favorable consideration, or
 
-Enhanced developer control and model maintenance
-Modern organizations constantly process massive quantities of data, from order inputs to market projections to employee turnover and more. Effective data pipeline construction and data storage is paramount for strong RAG implementation.
+submitting work completed in another class for credit without the express permission of the instructor.
 
-At the same time, developers and data scientists can tweak the data sources to which models have access at any time. Repositioning a model from one task to another becomes a task of adjusting its external knowledge sources as opposed to fine-tuning or retraining. If fine-tuning is needed, developers can prioritize that work instead of managing the model’s data sources.
+Unethical interference—interfering with or undermining the work of others to gain unfair advantage, for example:
 
-Greater data security
-Because RAG connects a model to external knowledge sources rather than incorporating that knowledge into the model’s training data, it maintains a divide between the model and that external knowledge. Enterprises can use RAG to preserve first-party data while simultaneously granting models access to it—access that can be revoked at any time.
+inappropriately limiting other students’ access to relevant materials,
 
-However, enterprises must be vigilant to maintain the security of the external databases themselves. RAG uses vector databases, which use embeddings to convert data points to numerical representations. If these databases are breached, attackers can reverse the vector embedding process and access the original data, especially if the vector database is unencrypted
+tampering with others students’ submissions or grades,
+
+purposely undermining the success of collaborative work, or
+
+interfering with other students’ scholarship by creating inhospitable work conditions.
+
+Facilitating misconduct—helping others commit acts of academic misconduct, for example:
+
+completing another student’s work,
+
+providing a solution or other prohibited material to another student, or
+
+lying to help another student gain advantage or conceal wrongdoing.
+
+When a faculty member suspects that a student is responsible for academic misconduct, the faculty member will refer the case to the Office of Student Affairs for administrative action.  
+
+If the student is found to be responsible for academic misconduct, a disciplinary status ranging from a warning to expulsion will be assigned. The faculty member will decide upon a grading penalty up to a failing grade in the course. After receiving a sanction, the student may not elect the Pass/ No Pass option in that course without the permission of the Dean of Students. In the case of a student who has already chosen the Pass/No Pass option, the Registrar will rescind that option, unless the Dean of Students permits it to remain. If assigned an F in the course as a result of the academic misconduct, the student cannot withdraw from the course without the permission of the faculty member.
+
+--------
+Policy Maintained by: Registrar's Office, College Registrar
+Last Updated: August 26, 2024
+Smoking on College Premises Policy
+Health & Wellness Policies
+
+In order to promote the health and safety, comfort, and well-being of all members of the College community, Franklin & Marshall prohibits smoking:
+
+inside all buildings on campus, including academic and administrative buildings, the Alumni Sports and Fitness Center, and the Steinman College Center,
+
+in all indoor public areas and restrooms,
+
+in shared as well as private offices,
+
+in College Houses / residence halls,
+
+at all indoor and outdoor athletic events,
+
+inside College vans, chartered buses, or other College vehicles used for mass transportation,
+
+within 30 feet of the entrance or exit to any administrative or academic building on campus, and within 30 feet of windows and air intakes.
+
+Lighted smoking materials and electronic cigarettes ("e-cigarettes") are not permitted in any indoor areas of the College, including offices, conference rooms, dining areas, libraries, theaters, break rooms, restrooms, warehouses, garages, and Houses / residence halls, as well as in College vans and other College vehicles.
+
+Smokers are expected to dispose of smoking materials properly and safely in trash receptacles provided for this purpose.
+
+This policy pertains to students, faculty and professional staff, contracted service personnel and vendors, and campus visitors.
+
+Alcohol Policy for Faculty and Professional Staff
+Scope-- All alcoholic beverages fall within the scope of this policy.
+
+Prohibited Conduct-- The following is prohibited conduct:
+
+The use of alcoholic beverages by an employee on College premises, except at a College event properly approved and scheduled according to College policies governing such activities.
+
+The transport of any item within the scope of this policy, either on one's person or in a vehicle while on College business or on College premises, or while operating College-owned or College-leased vehicles or equipment, except in conjunction with a College event properly approved and scheduled according to College policies governing such activities. The use of alcoholic beverages by an employee while not on College time or premises, if the employee reports to work under the influence of alcohol, or the employee's work performance is affected by the use of alcohol.
+
+The failure to notify Franklin & Marshall College's Human Resources office of any alcohol-related conviction, within five days of the conviction, resulting from a violation while on College premises or while engaged in professional activities on behalf of the College.
+
+Violations of local, state, and federal laws pertaining to the manufacture, distribution, possession, or use of alcohol, including providing alcohol to a Franklin & Marshall student or other individual who is under age 21.
+
+Pennsylvania State Law
+All persons while in the Commonwealth of Pennsylvania are subject to the Pennsylvania Liquor and Penal Code. It is illegal for anyone who has not reached the age of 21 to possess, transport, or drink alcoholic beverages in Pennsylvania. The law also prohibits the selling or furnishing of alcoholic beverages of any kind to persons under 21 years of age by any agency or any person. "Furnish" is defined as: To supply, give, or provide to, or allow a minor to possess on premises or property owned or controlled by the person charged (Pennsylvania Crimes Code, 1986). In addition, it is unlawful to misrepresent one's age to any person to obtain alcoholic beverages or to represent to any person that a minor is of age.
+
+Drug Policy for Faculty and Professional Staff
+Scope-- All illegal drug use falls within the scope of this policy.
+
+Prohibited Conduct-- The following is prohibited conduct:
+
+The unlawful manufacture, distribution, possession, or use of a controlled substance(s) in any facility or worksite of Franklin & Marshall College.
+
+The transport of an illegal drug, either on one's person or in a vehicle while on College business or on College premises, or while operating College-owned or College-leased vehicles or equipment.
+
+The use of an illegal substance by an employee while not on College time or premises, if the employee reports to work under the influence, or the employee's work performance is affected by the illegal use of a drug.
+
+The failure to notify Franklin & Marshall College of any drug-related conviction, within 5 days of the conviction, resulting from a violation while on College premises or while engaged in professional activities on behalf of the College. Based on provisions of the Drug-Free Workplace Act of 1988, any College employee who is convicted of any drug-related crime in the workplace must notify the Franklin & Marshall Human Resources office within 5 days of the conviction. Notification of such conviction is a mandatory condition for continued employment. Any employee convicted of any drug-related crime in the workplace will be subject to corrective action, up to immediate separation from employment.
+
+Violations of local, state, and federal laws pertaining to the manufacture, distribution, possession, or use of drugs.
+
+Consequences of Violations of the Alcohol and/or Drug Policy
+If an employee engages in any prohibited conduct, the consequences of that action will be corrective action up to and including immediate separation from employment, depending upon the College's view of the seriousness of the offense. Although the College offers resources to help an employee overcome substance abuse, nothing in this policy will insulate an employee from corrective action for unprofessional conduct, poor work performance, or violations of attendance requirements which may have been induced by drugs or alcohol, up to and including separation from employment. The College's response to violations on campus of local, state, and federal law includes referral for prosecution.
+
+An employee who is required to drive a College vehicle or a personal vehicle in order to perform his/her job duties must maintain a valid driver's license. An employee who is required to drive for College business must not have had a conviction for driving under the influence/driving while intoxicated within the past 24 months. If an employee's license is suspended or revoked for any reason, and/or an employee is convicted of driving under the influence, the employee must promptly notify Human Resources. The employee may be reassigned to other job duties, if practical as determined solely by the College, or employment may be terminated.
+
+Substance Abuse Testing
+When it has been established by Franklin & Marshall that testing an employee for drug and/or alcohol use is warranted based on reasonable suspicion of violation of this policy, the College will require the employee to undergo testing. Before testing is required, the supervisor/department manager is to consult with the HR Department. Reasonable suspicion testing may be based upon:
+
+direct observation of drug or alcohol use or possession by a College employee while working, in the workplace, or on campus before or during working hours;
+
+observable physical symptoms of being under the influence of a drug or alcohol while working that lead a supervisor to conclude that an employee may not be fit for duty;
+
+unsafe, erratic, or disruptive behavior in the workplace that a supervisor could reasonably conclude may be due to drug or alcohol use.
+
+Whenever possible, a supervisor who suspects an employee is under the influence of a drug or alcohol while working is to immediately contact his/her department manager, or the HR Department, to witness the employee's behavior. The supervisor must also carefully document what he/she has observed. Generally, an employee who is believed to be under the influence while at work will be transported to Lancaster General Hospital for drug and/or alcohol testing. A refusal to submit to a drug and/or alcohol test, or refusal to allow results to be released to the College, may result in disciplinary action, up to and including termination of employment. Typically, an employee will be suspended without pay pending the results of an alcohol and/or drug test. The employee must receive a "negative" test - one that shows the employee is free from impairment due to illegal drugs, illegally prescribed drugs, and alcohol - before being permitted to return to work.
+
+If an employee acknowledges that he/she is under the influence while working, the employee will be provided with transportation home. Disciplinary action, including a mandatory referral for evaluation and substance abuse treatment, testing for drugs and/or alcohol for some period of time, unpaid time off work, or employment termination, may result. In addition, the employee may be required to undergo drug and/or alcohol testing, and obtain a negative test, before returning to work.
+
+Note: if a supervisor believes an employee is under the influence of drugs or alcohol while at work, the supervisor is to arrange for the employee to be safely transported to Lancaster General Hospital for testing or to the employee's home (after consulting with the HR Department).
+
+Paid Sick Leave Policy for Faculty
+Leave Policies
+
+This Paid Sick Leave Policy provides a means for eligible full-time faculty members to receive salary continuation as outlined below when unable to work due to their bona fide non-occupational illness or injury. Earned paid sick days may also be used by a faculty member who is unable to work due to her pregnancy and/or following childbirth.
+
+Eligibility
+Full-time faculty members, including full-time visiting faculty on a greater than one-year appointment, are eligible for sick leave, with salary continuation, as outlined below.
+
+Paid Sick Leave
+Beginning with the first year of employment, a full-time faculty member is eligible for sick leave, with continuation of base salary, based on length of full-time Franklin & Marshall service, according to the following schedule:
