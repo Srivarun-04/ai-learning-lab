@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import TextLoader
 
-loader = TextLoader("data/notes.txt")
+loader = TextLoader("notes.txt")
 
 documents = loader.load()
 
